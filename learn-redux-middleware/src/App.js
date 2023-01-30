@@ -1,12 +1,12 @@
 import React from 'react';
-import SampleContainer from './containers/SampleContainer';
-// import CounterContainers from './containers/CounterContainers';
+// import SampleContainer from './containers/SampleContainer';
+import CounterContainer from './containers/CounterContainer';
 
 function App() {
   return (
     <div>
-      {/* <CounterContainers/> */}
-      {<SampleContainer/>}
+      <CounterContainer/>
+      {/* {<SampleContainer/>} */}
     </div>
   );
 }
