@@ -69,7 +69,7 @@ const sample = handleActions(
     }),
     [GET_USERS_SUCCESS]: (state, action) => ({
       ...state,
-      post: action.payload
+      users: action.payload
     }),
   },
   initialState
